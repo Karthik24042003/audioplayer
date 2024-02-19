@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(music-background-with-phone-with-music-icon-column-modern-technology-concept-listening-music.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+.playlist {
+    margin-bottom: 20px;
+  }
+.now-playing {
+    margin-bottom: 10px;
+  }
+  
+.now-playing span {
+    font-weight: bold;
+  }
+#head{
+   
+    text-align: center;
+    margin-top: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+}  
+#nowPlaying{
+    justify-content: center;
+    display: inline-flexbox;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 30%
+    
+
+    
+}
+#uploadButton{
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-width: 10px;
+}
+#uploadButton:hover{
+    color:black;
+    border-color: rgb(4, 105, 105);
+}
+#audioFileInput{
+    border-radius: 5px;
+    margin-left: 40%;
+    font-size: 15px;
+    
+}
+#audioFileinput:hover{
+    border-radius: 5px;
+    border-color: #5585b5;
+}
+#playlist:hover{
+    cursor: pointer;
+    
+}
+#nowPlayingTitle:hover{
+    cursor: pointer;
+}
+#spiner {
+    background-color: rgb(19, 111, 231);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    border: 15px solid rgb(103, 19, 182);
+    border-top: 20px solid #b81487; 
+    animation: ani 2.5s linear infinite;
+    display: inline-flex;
+    
+
+}
+
+@keyframes ani {
+    to {
+        transform: rotate(360deg);
+    }
+}
